@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Techno Vault Pvt. Ltd.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background-color: #0b0c10;
+      color: #c5c6c7;
+    }
+    header {
+      background: #1f2833;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header img {
+      max-width: 150px;
+      margin-bottom: 10px;
+    }
+    header h1 {
+      font-size: 2rem;
+      color: #66fcf1;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #45a29e;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #0b0c10;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      color: #66fcf1;
+      margin-bottom: 20px;
+    }
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .product-card {
+      background: #1f2833;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      border: 1px solid #45a29e;
+    }
+    .custom-build select {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      background: #0b0c10;
+      color: #66fcf1;
+      border: 1px solid #45a29e;
+      border-radius: 5px;
+    }
+    footer {
+      background: #1f2833;
+      text-align: center;
+      color: #c5c6c7;
+      padding: 20px;
+    }
+    a.social {
+      color: #66fcf1;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Techno Vault Logo" />
+    <h1>Techno Vault Pvt. Ltd.</h1>
+    <p>Custom Gaming Unleashed</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#custom">Custom Build</a>
+    <a href="#products">Products</a>
+    <a href="#why">Why Choose Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="custom">
+    <h2>Custom Build</h2>
+    <div class="custom-build">
+      <select><option>Choose CPU</option><option>Intel i5</option><option>AMD Ryzen 5</option></select>
+      <select><option>Choose GPU</option><option>NVIDIA RTX 3060</option><option>AMD RX 6700</option></select>
+      <select><option>Choose RAM</option><option>16GB</option><option>32GB</option></select>
+      <select><option>Choose Storage</option><option>512GB SSD</option><option>1TB SSD</option></select>
+      <select><option>Choose PSU</option><option>550W</option><option>750W</option></select>
+      <button onclick="alert('Basic compatibility check: All parts selected.')">Check Build</button>
+    </div>
+  </section>
+
+  <section id="products">
+    <h2>Product Categories</h2>
+    <div class="products-grid">
+      <div class="product-card">Gaming PCs</div>
+      <div class="product-card">Gaming Laptops</div>
+      <div class="product-card">Normal Laptops</div>
+      <div class="product-card">Keyboards & Mice</div>
+      <div class="product-card">PC Components</div>
+    </div>
+  </section>
+
+  <section id="why">
+    <h2>Why Choose Us</h2>
+    <ul>
+      <li>⚡ Fast custom builds</li>
+      <li>🎯 Expert recommendations</li>
+      <li>💰 Affordable pricing</li>
+      <li>🔧 Warranty & after-sales support</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: technovault1@gmail.com</p>
+    <p>Phone: 9761637001 / 9861826043</p>
+    <p>Instagram: <a class="social" href="https://instagram.com/technovaultnp" target="_blank">@technovaultnp</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Techno Vault Pvt. Ltd. All rights reserved.</p>
+  </footer>
+</body>
+</html>
